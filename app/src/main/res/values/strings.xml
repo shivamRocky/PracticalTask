@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Practical Task</string>
+
+    <string name="sub_text">On-Time Departures. Pay just for your seat.No Refusal from our end.Spacious &amp; Comfortable Seating. Female passengers safety standards.Onboard Refreshments. Cab tracking through Maps </string>
+    <string name="enter_your_mobile_number">Enter Your Mobile Number</string>
+    <string name="hello_welcome_back_to_our_account">Hello, Welcome Back To Our Account</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="request_otp">Request OTP</string>
+    <string name="login_with">Login with</string>
+    <string name="google">Google</string>
+    <string name="facebook">Facebook</string>
+    <string name="happid">Happid</string>
+    <string name="find_nearest_local_n_market">Find Nearest Local\n market</string>
+    <string name="best_markitplace">Best Markitplace</string>
+    <string name="get_started">Get Started</string>
+    <string name="enter_your_verification_code">Enter Your Verification Code</string>
+    <string name="we_have_sent_the_code_verification_to_your_mobile_number">We Have Sent The code Verification To Your Mobile Number</string>
+    <string name="submit">Submit</string>
+    <string name="don_t_receive_otp">Don\'t Receive OTP?</string>
+    <string name="resend">Resend</string>
+    <string name="pop_up_text">Your Confirmation Code is\n Below - Enter it And We\'ll Help\n You Get Signed in.</string>
+    <string name="create_profile">Create Profile</string>
+    <string name="set_profile">Set Profile</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="phone">Phone</string>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/PracticalTask/app/src/main/res/drawable-v24/btn_ripple_effect.xml" value="0.19166666666666668" />
+        <entry key="..\:/PracticalTask/app/src/main/res/drawable/bg_textinput_round_solid.xml" value="0.19166666666666668" />
+        <entry key="..\:/PracticalTask/app/src/main/res/drawable/ic_edit_pen.xml" value="0.19166666666666668" />
+        <entry key="..\:/PracticalTask/app/src/main/res/drawable/ic_person.xml" value="0.19166666666666668" />
+        <entry key="..\:/PracticalTask/app/src/main/res/font/roboto.xml" value="0.20256410256410257" />
+        <entry key="..\:/PracticalTask/app/src/main/res/layout/activity_login.xml" value="0.17552083333333332" />
+        <entry key="..\:/PracticalTask/app/src/main/res/layout/activity_main.xml" value="0.17552083333333332" />
+        <entry key="..\:/PracticalTask/app/src/main/res/layout/activity_otpvalidation.xml" value="0.17552083333333332" />
+        <entry key="..\:/PracticalTask/app/src/main/res/layout/activity_splash.xml" value="0.17552083333333332" />
+        <entry key="..\:/PracticalTask/app/src/main/res/layout/activity_start.xml" value="0.17552083333333332" />
+        <entry key="..\:/PracticalTask/app/src/main/res/layout/custom_layout_otp.xml" value="0.17552083333333332" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

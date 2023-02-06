@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.OTPValidationActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/white"
+        app:contentInsetLeft="0dp"
+        app:contentInsetStart="0dp"
+        app:contentInsetStartWithNavigation="0dp"
+        >
+
+        <ImageView
+            android:id="@+id/toolbar_drawer"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="start"
+            android:contentDescription="@string/app_name"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/ic_arrow_left" />
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/size_15">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/size_40"
+                android:fontFamily="@font/poppins_bold"
+                android:text="@string/enter_your_verification_code"
+                android:textSize="35sp"
+                android:textColor="@color/overlay_dark_80"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_20"
+                android:fontFamily="@font/poppins"
+                android:paddingTop="@dimen/margin_5"
+                android:paddingBottom="@dimen/margin_5"
+                android:paddingEnd="@dimen/margin_5"
+                android:text="@string/we_have_sent_the_code_verification_to_your_mobile_number"
+                android:textColor="@color/overlay_dark_60"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/mobile_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/overlay_dark_80"
+                />
+
+            <com.chaos.view.PinView
+                android:id="@+id/otp_pin_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/size_35"
+                app:itemWidth="50dp"
+                android:height="40dp"
+                android:layout_gravity="center"
+                app:itemCount="4"
+                app:lineColor="@color/overlay_dark_60"
+                style="@style/PinWidget.PinView"
+                android:inputType="number"
+                android:cursorVisible="true"
+                app:cursorColor="@color/overlay_dark_60"
+                app:hideLineWhenFilled="true"
+                app:itemRadius="2dp"
+                />
+
+
+            <Button
+                android:id="@+id/btn_validate_otp"
+                style="@style/tutorialBtn"
+                android:layout_marginTop="@dimen/size_35"
+                android:text="@string/submit"
+                android:textAllCaps="false"
+                android:elevation="@dimen/margin_2"
+                android:textColor="@color/white"
+                />
+
+
+            <LinearLayout
+                android:id="@+id/sms_text_linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/size_40"
+                android:layout_marginBottom="@dimen/size_60"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/don_t_receive_otp"
+                    android:textSize="16sp"
+                    />
+
+                <TextView
+                    android:id="@+id/timer_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:text="@string/resend"
+                    android:layout_marginStart="@dimen/margin_2"
+                    android:textColor="@color/orange"
+
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
+</layout>
